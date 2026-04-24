@@ -34,11 +34,11 @@ Your job: analyze each scholarship's requirements against the user's profile and
 RULES:
 - Respond with ONLY a valid JSON array. No markdown fences, no prose before or after.
 - Each item must have EXACTLY these keys:
-    "scholarship_name" (string)
+    "id"               (string, the exact ID from the scholarship data)
     "match_percentage" (integer 0-100)
     "why_you_match"    (one concise sentence)
 - Rank from best to worst match.
-- Base match_percentage on how many hard requirements the user meets AND how specifically the scholarship targets their profile. Do not inflate scores.
+- Base match_percentage on how many hard requirements the user meets. Do not inflate scores.
 - If fewer than 3 scholarships are a reasonable fit, return only the ones that are."""
 
     user_message = f"""USER PROFILE:
@@ -79,6 +79,9 @@ st.markdown("Enter your reality. Let AI find your funding.")
 # Load the data right away
 scholarships_data = load_scholarships("scholarships.json")
 
+# Create a lookup dictionary so we can easily grab the full scholarship data by its ID later
+scholarship_lookup = {s["id"]: s for s in scholarships_data}
+
 # Data lists for dropdowns
 US_STATES = [
     "Maryland", "District of Columbia", "Virginia", "Pennsylvania", "Delaware", 
@@ -117,13 +120,15 @@ with st.form("student_profile"):
         state = st.selectbox("State / Territory", US_STATES, index=0)
         
     with col2:
-        state = st.selectbox("State / Territory", US_STATES, index=0)
         ethnicity = st.selectbox("Ethnicity", ETHNICITIES, index=0)
         gender = st.selectbox("Gender", ["Female", "Male", "Non-binary", "Prefer not to say"], index=1)
         financial_need = st.selectbox("Financial Need", ["High", "Medium", "Low"])
         interests = st.text_input("Interests (comma separated)", value="AI, cybersecurity, robotics")
 
-    submit_button = st.form_submit_button("Find My Funds")
+    # Use columns to push the button to the right
+    spacer, btn_col = st.columns([4, 1])
+    with btn_col:
+        submit_button = st.form_submit_button("Find My Funds", use_container_width=True)
 
 # --- EXECUTE ON SUBMIT ---
 if submit_button:
@@ -150,8 +155,29 @@ if submit_button:
             
             # Display results dynamically based on your JSON keys
             for match in matches:
-                with st.expander(f"**{match['scholarship_name']}** — {match['match_percentage']}% Match", expanded=True):
+                # Use the ID returned by Claude to pull the exact data from our JSON
+                s_data = scholarship_lookup.get(match["id"])
+                
+                # Safety check in case Claude hallucinates an ID
+                if not s_data:
+                    continue
+
+                # Safely get the values with fallbacks if the JSON is missing keys
+                amount_val = s_data.get('amount', 'Amount TBD')
+                amount_formatted = f"${int(amount_val):,}" if str(amount_val).isnumeric() else amount_val
+                
+                deadline = s_data.get('deadline', 'Check website')
+                url = s_data.get('source_url', 'https://financialaid.umd.edu/')
+
+                with st.expander(f"**{s_data.get('name', 'Scholarship')}** — {match['match_percentage']}% Match", expanded=True):
                     st.write(f"💡 **Why you match:** {match['why_you_match']}")
+                    
+                    # Markdown layout for the stats and hyperlink
+                    st.markdown(f"""
+                    * **Amount:** {amount_formatted}
+                    * **Deadline:** {deadline}
+                    * **[🔗 Click here to apply]({url})**
+                    """)
                     
         except Exception as e:
             st.error(f"Something went wrong: {e}")
