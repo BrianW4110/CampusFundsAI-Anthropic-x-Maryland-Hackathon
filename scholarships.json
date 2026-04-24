@@ -1,0 +1,242 @@
+[
+  {
+    "id": "UMD001",
+    "name": "Banneker/Key Scholarship",
+    "source": "University of Maryland",
+    "amount": 40000,
+    "deadline": "2026-11-01",
+    "requirements": "Incoming freshman admitted to the UMD Honors College. Must apply by November 1 early action deadline. U.S. citizen or eligible non-citizen. Competitive academic record (typically top of class, exceptional test scores, demonstrated leadership). Semifinalists invited to interview.",
+    "description": "UMD's most prestigious merit scholarship. Can cover up to full cost of tuition, mandatory fees, housing, food, and book allowance, and includes admission to the Honors College.",
+    "source_url": "https://admissions.umd.edu/tuition/freshman-merit-scholarships"
+  },
+  {
+    "id": "UMD002",
+    "name": "President's Scholarship",
+    "source": "University of Maryland",
+    "amount": 20000,
+    "deadline": "2026-11-01",
+    "requirements": "Incoming freshman (both in-state and out-of-state eligible). Must apply by November 1 early action deadline. U.S. citizen or eligible non-citizen. Selection based on academic achievement, extracurricular activities, awards, honors, and essay.",
+    "description": "Four-year merit scholarship ranging from $2,000 to $20,000 per year. Awarded to academically talented incoming freshmen regardless of state of residence.",
+    "source_url": "https://admissions.umd.edu/tuition/freshman-merit-scholarships"
+  },
+  {
+    "id": "UMD003",
+    "name": "Dean's Scholarship",
+    "source": "University of Maryland",
+    "amount": 4500,
+    "deadline": "2026-11-01",
+    "requirements": "Incoming freshman. In-state (Maryland resident) applicants only. Must apply by November 1 early action deadline. Selection based on academic achievement, extracurriculars, awards, honors, and essay.",
+    "description": "Merit scholarship of $1,500 for freshman year or $4,500 per year for freshman and sophomore years. Roughly 400 recipients each fall.",
+    "source_url": "https://admissions.umd.edu/tuition/freshman-merit-scholarships"
+  },
+  {
+    "id": "UMD004",
+    "name": "Frederick Douglass Scholarship",
+    "source": "University of Maryland",
+    "amount": 15000,
+    "deadline": "2026-03-01",
+    "requirements": "Transfer applicant from a Maryland community college. Strong academic record. Separate application required. U.S. citizen or permanent resident.",
+    "description": "Prestigious UMD scholarship for academically talented transfer students from Maryland community colleges. Honors the life and legacy of Frederick Douglass.",
+    "source_url": "https://admissions.umd.edu/tuition/frederick-douglass-scholarship"
+  },
+  {
+    "id": "UMD005",
+    "name": "Maryland Transfer Scholarship",
+    "source": "University of Maryland",
+    "amount": 5000,
+    "deadline": "2026-03-01",
+    "requirements": "Maryland resident transferring from a two-year or four-year institution. Must apply for admission by March 1 early action deadline and submit FAFSA by March 1. Must enroll full-time and maintain 3.20 cumulative GPA. Demonstrated financial need plus academic talent.",
+    "description": "Partial-tuition award of $5,000 distributed over two semesters for two years. Roughly 200 recipients each fall.",
+    "source_url": "https://financialaid.umd.edu/resources-policies/maryland-transfer-scholarship-policy"
+  },
+  {
+    "id": "UMD006",
+    "name": "President's Transfer Scholarship",
+    "source": "University of Maryland",
+    "amount": 5000,
+    "deadline": "2026-03-01",
+    "requirements": "Out-of-state transfer student. Must apply by March 1 early action deadline. U.S. citizen or permanent resident. Competitive review based on academic achievement, extracurriculars, awards, honors, and essay.",
+    "description": "Annual $5,000 award for up to two years, specifically for out-of-state transfer students enrolled at UMD.",
+    "source_url": "https://financialaid.umd.edu/resources-policies/presidents-transfer-scholarship-policy"
+  },
+  {
+    "id": "UMD007",
+    "name": "Terrapin Commitment",
+    "source": "University of Maryland",
+    "amount": 15000,
+    "deadline": "2026-03-01",
+    "requirements": "In-state (Maryland) undergraduate. Family income of $75,000 or less. Demonstrated unmet financial need. Must submit FAFSA by March 1 priority deadline.",
+    "description": "UMD's promise that 100% of tuition and mandatory fees are covered for in-state students with unmet financial need from families making $75,000 or less.",
+    "source_url": "https://financialaid.umd.edu/"
+  },
+  {
+    "id": "MHEC001",
+    "name": "Howard P. Rawlings Guaranteed Access Grant",
+    "source": "Maryland Higher Education Commission",
+    "amount": 20200,
+    "deadline": "2026-03-01",
+    "requirements": "Maryland resident. Current high school senior completing a college preparatory program, or GED holder under age 26. Must file FAFSA by March 1. Demonstrated high financial need. Must enroll full-time at a Maryland institution.",
+    "description": "Need-based Maryland state grant providing up to $20,200 (up to 100% of financial need) for eligible low-income Maryland residents attending Maryland colleges.",
+    "source_url": "https://mhec.maryland.gov/preparing/pages/financialaid/descriptions.aspx"
+  },
+  {
+    "id": "MHEC002",
+    "name": "Howard P. Rawlings Educational Assistance Grant",
+    "source": "Maryland Higher Education Commission",
+    "amount": 3000,
+    "deadline": "2026-03-01",
+    "requirements": "Maryland resident attending a Maryland public or private college. Must file FAFSA by March 1. Demonstrated financial need. Enrolled at least half-time.",
+    "description": "Maryland's largest state financial aid program. Need-based grant ranging from $400 to $3,000 annually, awarded to low- and middle-income Maryland undergraduates.",
+    "source_url": "https://mhec.maryland.gov/preparing/pages/financialaid/descriptions.aspx"
+  },
+  {
+    "id": "MHEC003",
+    "name": "2+2 Transfer Scholarship",
+    "source": "Maryland Higher Education Commission",
+    "amount": 2000,
+    "deadline": "2026-03-01",
+    "requirements": "Transfer student from a Maryland community college to a four-year Maryland institution. Minimum GPA 3.0 at time of transfer. Completed at least 60 credits. Must file FAFSA.",
+    "description": "State scholarship encouraging Maryland community college transfers to continue their education at four-year Maryland institutions.",
+    "source_url": "https://mhec.maryland.gov/preparing/pages/financialaid/descriptions.aspx"
+  },
+  {
+    "id": "MHEC004",
+    "name": "Maryland Senatorial Scholarship",
+    "source": "Maryland Higher Education Commission",
+    "amount": 7500,
+    "deadline": "2026-03-01",
+    "requirements": "Maryland resident. Current high school senior, or full-time or part-time undergraduate/graduate student. Must file FAFSA by March 1. Awarded by your Maryland State Senator based on their criteria.",
+    "description": "Legislative scholarship offered to Maryland residents attending any Maryland college, university, or private career school. All Maryland residents can apply.",
+    "source_url": "https://mhec.maryland.gov/preparing/pages/financialaid/descriptions.aspx"
+  },
+  {
+    "id": "MHEC005",
+    "name": "Maryland Delegate Scholarship",
+    "source": "Maryland Higher Education Commission",
+    "amount": 5000,
+    "deadline": "2026-03-01",
+    "requirements": "Maryland resident. Plans to attend a two-year or four-year Maryland college, university, or private career school full-time or part-time. Application and criteria vary by Delegate.",
+    "description": "Legislative scholarship awarded by Maryland State Delegates. May be need- or merit-based depending on the specific Delegate's criteria.",
+    "source_url": "https://mhec.maryland.gov/preparing/pages/financialaid/descriptions.aspx"
+  },
+  {
+    "id": "MHEC006",
+    "name": "Teaching Fellows for Maryland Scholarship",
+    "source": "Maryland Higher Education Commission",
+    "amount": 30000,
+    "deadline": "2026-03-01",
+    "requirements": "Enrolled in a teacher preparation program leading to Maryland certification. Must pledge to teach as a Maryland public school or public pre-K teacher upon graduation. Must teach in a high-needs school OR shortage subject area (STEM, Special Education, etc.). Renewable for up to 4 years undergrad.",
+    "description": "Full scholarship covering 100% of tuition, mandatory fees, and room and board for aspiring Maryland teachers. Service obligation required.",
+    "source_url": "https://education.umd.edu/admissions/financial-aid-scholarships/federalstate-scholarships-grants"
+  },
+  {
+    "id": "MHEC007",
+    "name": "Workforce Shortage Student Assistance Grant",
+    "source": "Maryland Higher Education Commission",
+    "amount": 4000,
+    "deadline": "2026-03-01",
+    "requirements": "Maryland resident. Enrolled in an eligible program leading to a career in a state-designated workforce shortage area (teaching, nursing, human services, physical/occupational therapy, public service). Service obligation to work in Maryland in the designated field after graduation.",
+    "description": "State grant for students entering designated workforce shortage fields. Requires a post-graduation service commitment in Maryland.",
+    "source_url": "https://mhec.maryland.gov/preparing/pages/financialaid/descriptions.aspx"
+  },
+  {
+    "id": "MHEC008",
+    "name": "Charles W. Riley Firefighter and Ambulance & Rescue Squad Scholarship",
+    "source": "Maryland Higher Education Commission",
+    "amount": 5000,
+    "deadline": "2026-03-01",
+    "requirements": "Maryland resident who is an active volunteer firefighter, ambulance, or rescue squad member (or spouse/child of a deceased member). Pursuing degree or certificate in fire service technology, EMT, or related fields. Service commitment required.",
+    "description": "Honors Maryland's volunteer first responders by funding their higher education in public safety fields.",
+    "source_url": "https://mhec.maryland.gov/preparing/pages/financialaid/descriptions.aspx"
+  },
+  {
+    "id": "MHEC009",
+    "name": "Edward T. Conroy Memorial Scholarship",
+    "source": "Maryland Higher Education Commission",
+    "amount": 10000,
+    "deadline": "2026-03-01",
+    "requirements": "Maryland resident who is a veteran of the U.S. Armed Forces (with qualifying service), OR a son/daughter/surviving spouse of a deceased or 100% disabled veteran, OR a son/daughter of a 9/11 victim, OR a POW/MIA from the Vietnam Conflict. Attending a Maryland institution.",
+    "description": "Honors Maryland veterans, service members, public safety officers, and their families by supporting their postsecondary education.",
+    "source_url": "https://mhec.maryland.gov/preparing/pages/financialaid/descriptions.aspx"
+  },
+  {
+    "id": "MHEC010",
+    "name": "Maryland Tuition Waiver for Foster Care Recipients",
+    "source": "Maryland Higher Education Commission",
+    "amount": 11000,
+    "deadline": "2026-03-01",
+    "requirements": "Current or former Maryland foster care youth (exited foster care to adoption/guardianship after age 13, or aged out of care). Under age 25. Enrolled at a Maryland public institution pursuing associate, bachelor's, or vocational certificate.",
+    "description": "Tuition and fee waiver at Maryland public institutions for current and former foster care youth.",
+    "source_url": "https://mhec.maryland.gov/preparing/pages/financialaid/descriptions.aspx"
+  },
+  {
+    "id": "MHEC011",
+    "name": "Maryland Tuition Waiver for Homeless Youth",
+    "source": "Maryland Higher Education Commission",
+    "amount": 11000,
+    "deadline": "2026-03-01",
+    "requirements": "Maryland homeless or unaccompanied youth (as verified by a school district homeless liaison, shelter director, or similar official). Under age 25. Enrolled at a Maryland public institution pursuing associate, bachelor's, or vocational certificate.",
+    "description": "Tuition and fee waiver at Maryland public institutions for students experiencing homelessness.",
+    "source_url": "https://mhec.maryland.gov/preparing/pages/financialaid/descriptions.aspx"
+  },
+  {
+    "id": "MHEC012",
+    "name": "Nurse Support Program II - Hal & Jo Cohen Graduate Nursing Faculty Scholarship",
+    "source": "Maryland Higher Education Commission",
+    "amount": 18000,
+    "deadline": "2026-03-01",
+    "requirements": "Maryland resident enrolled in a graduate nursing program (MSN or DNP). Commitment to serve as nursing faculty at a Maryland nursing school after graduation. Minimum GPA 3.0.",
+    "description": "Graduate scholarship for aspiring nursing faculty committed to teaching at Maryland nursing schools, addressing the nursing educator shortage.",
+    "source_url": "https://mhec.maryland.gov/preparing/pages/financialaid/descriptions.aspx"
+  },
+  {
+    "id": "MHEC013",
+    "name": "Maryland Part-Time Grant",
+    "source": "Maryland Higher Education Commission",
+    "amount": 2000,
+    "deadline": "2026-03-01",
+    "requirements": "Maryland resident enrolled part-time (6-11 credits) at a Maryland postsecondary institution. Demonstrated financial need. Must file FAFSA by March 1. Not pursuing a graduate degree.",
+    "description": "Need-based grant supporting part-time Maryland undergraduates, typically working adults balancing school with employment.",
+    "source_url": "https://mhec.maryland.gov/preparing/pages/financialaid/descriptions.aspx"
+  },
+  {
+    "id": "MHEC014",
+    "name": "Jack F. Tolbert Memorial Student Grant",
+    "source": "Maryland Higher Education Commission",
+    "amount": 500,
+    "deadline": "2026-03-01",
+    "requirements": "Maryland resident enrolled at an eligible Maryland private career school. Demonstrated financial need. Must file FAFSA by March 1.",
+    "description": "Need-based grant for Maryland residents attending private career schools.",
+    "source_url": "https://mhec.maryland.gov/preparing/pages/financialaid/descriptions.aspx"
+  },
+  {
+    "id": "FED001",
+    "name": "Federal Pell Grant",
+    "source": "U.S. Department of Education",
+    "amount": 7395,
+    "deadline": "2026-03-01",
+    "requirements": "Undergraduate student who has not yet earned a bachelor's or professional degree. Demonstrated exceptional financial need as determined by FAFSA (Student Aid Index). U.S. citizen or eligible non-citizen. Maintain satisfactory academic progress. Lifetime limit of 12 full-time semesters.",
+    "description": "The foundational federal need-based grant. Maximum award for 2025-26 is $7,395. Does not need to be repaid. Award varies based on SAI and enrollment status.",
+    "source_url": "https://studentaid.gov/understand-aid/types/grants/pell"
+  },
+  {
+    "id": "FED002",
+    "name": "Federal Supplemental Educational Opportunity Grant (FSEOG)",
+    "source": "U.S. Department of Education",
+    "amount": 4000,
+    "deadline": "2026-03-01",
+    "requirements": "Undergraduate student who has not yet earned a bachelor's degree. Exceptional financial need (Pell Grant recipients get priority). U.S. citizen or eligible non-citizen. Must file FAFSA. First-come, first-served once institutional funds are awarded.",
+    "description": "Federal campus-based grant ranging from $100 to $4,000 per year. Awarded by colleges to students with the greatest financial need. Apply early — funds are limited.",
+    "source_url": "https://studentaid.gov/understand-aid/types/grants/fseog"
+  },
+  {
+    "id": "FED003",
+    "name": "Federal TEACH Grant",
+    "source": "U.S. Department of Education",
+    "amount": 3772,
+    "deadline": "2026-03-01",
+    "requirements": "Enrolled in coursework necessary to begin a career in teaching. Maintain a cumulative GPA of at least 3.25. Agree to teach full-time for at least 4 academic years within 8 years of graduating, in a high-need field (math, science, special ed, bilingual ed, foreign language, reading) at a school serving low-income students. U.S. citizen or eligible non-citizen.",
+    "description": "Up to $3,772 per year for aspiring teachers who commit to a service obligation. Warning: if you don't fulfill the teaching commitment, the grant converts to a loan you must repay with interest.",
+    "source_url": "https://studentaid.gov/understand-aid/types/grants/teach"
+  }
+]
