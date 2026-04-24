@@ -151,7 +151,7 @@ if submit_button:
         try:
             matches = match_scholarships(user_profile, scholarships_data)
             
-            st.success(f"✅ Found top matches for {name}!")
+            st.success(f"✅ Found top matches for you!")
             
             # Display results dynamically based on your JSON keys
             for match in matches:
