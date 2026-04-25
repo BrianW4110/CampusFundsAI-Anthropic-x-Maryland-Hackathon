@@ -29,7 +29,7 @@ def match_scholarships(user_profile: dict, scholarships: list[dict]) -> list[dic
 1. A user's demographic profile (JSON)
 2. A list of available scholarships (JSON)
 
-Your job: analyze each scholarship's requirements against the user's profile and return the TOP 3 best matches.
+Your job: analyze each scholarship's requirements against the user's profile.
 
 RULES:
 - Respond with ONLY a valid JSON array. No markdown fences, no prose before or after.
@@ -39,7 +39,11 @@ RULES:
     "why_you_match"    (one concise sentence)
 - Rank from best to worst match.
 - Base match_percentage on how many hard requirements the user meets. Do not inflate scores.
-- If fewer than 3 scholarships are a reasonable fit, return only the ones that are."""
+
+OUTPUT QUANTITY RULE (CRITICAL):
+- If there are MORE THAN 3 scholarships with a match_percentage > 80%, return ALL of them (e.g., if 5 scholarships are an 85% match, return all 5).
+- Otherwise, return exactly the TOP 3 best matches (even if their scores are below 80%).
+- (Exception: If fewer than 3 are even a remote fit, return only the ones that are)."""
 
     user_message = f"""USER PROFILE:
 {json.dumps(user_profile, indent=2)}
@@ -47,7 +51,7 @@ RULES:
 AVAILABLE SCHOLARSHIPS:
 {json.dumps(scholarships, indent=2)}
 
-Return the top 3 matches as a JSON array."""
+Return the top matches as a JSON array."""
 
     response = client.messages.create(
         model="claude-sonnet-4-6",
